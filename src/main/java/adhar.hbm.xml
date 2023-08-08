@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<class name="com.diigitTraining.aadharInfo.addharInfo"
+		table="adharcard">
+
+		<id name="id" column="id"></id>
+
+		<property name="name">
+			<column name="name" />
+		</property>
+		<property name="email">
+			<column name="email" />
+		</property>
+		<property name="gender">
+			<column name="gender" />
+		</property>
+		<property name="address">
+			<column name="address" />
+		</property>
+		<property name="pin">
+			<column name="pin" />
+		</property>
+		<property name="phonenumber">
+			<column name="phonenumber" />
+		</property>
+
+
+	</class>
+
+</hibernate-mapping>
